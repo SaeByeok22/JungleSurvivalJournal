@@ -6,6 +6,9 @@ class Solution(object):
         :rtype: float
         """
         
+        # return x ** n
+        # return = pow(x, n)
+        
         # n 이 음수인 경우....
         if n < 0:
             x = 1 / x
