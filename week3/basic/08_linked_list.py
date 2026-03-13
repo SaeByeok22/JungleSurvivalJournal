@@ -30,6 +30,12 @@ class Node:
         # self.next = None
         self.next: Optional["Node"] = None # 클래스가 완전히 정의되기 전에 자신을 참조하기 때문임...
 
+# class Node:
+#     def __init__(self, data, next=None):
+#         self.data = data
+#         self.next = next
+# 코테에서 많이 쓰는 구조.
+
 # python은 동적 타입 언어지만, pylance는 정적 타입 검사기라서... 타입이 맞는지를 미리 검사하다가 경고를 띄운다나 뭐라나...
 # Pylance가 next의 타입을 None으로 인식하는 거라나... 뭐라나....
 
